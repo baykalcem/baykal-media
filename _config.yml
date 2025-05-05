@@ -1,0 +1,13 @@
+title: "Baykal Media"
+description: "Built with Minimal Mistakes"
+url: "https://www.baykalmedia.com"
+baseurl: ""
+
+remote_theme: mmistakes/minimal-mistakes
+
+minimal_mistakes_skin: "air"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
