@@ -1,5 +1,5 @@
 title: "Baykal Media"
-description: "Built with Minimal Mistakes"
+description: "Documentary, cinematic photography"
 url: "https://www.baykalmedia.com"
 baseurl: ""
 
@@ -11,4 +11,17 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-include-cache 
+  - jekyll-include-cache
+
+author:
+  name: Baykal Media
+  links:
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://instagram.com/yourhandle"
+    - label: "Facebook"
+      icon: "fab fa-facebook"
+      url: "https://facebook.com/yourhandle"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:hello@baykalmedia.com"

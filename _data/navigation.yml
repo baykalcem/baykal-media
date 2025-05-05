@@ -1,0 +1,12 @@
+- title: "Home"
+  url: /
+- title: "Galleries"
+  url: /portfolio/
+- title: "Pricing"
+  url: /pricing/
+- title: "About"
+  url: /about/
+- title: "Mentorship"
+  url: /mentorship/
+- title: "Blog"
+  url: /blog/
