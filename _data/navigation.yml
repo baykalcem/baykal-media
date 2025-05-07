@@ -1,12 +1,22 @@
-- title: "Home"
-  url: /
-- title: "Galleries"
-  url: /portfolio/
-- title: "Pricing"
-  url: /pricing/
-- title: "About"
-  url: /about/
-- title: "Mentorship"
-  url: /mentorship/
-- title: "Blog"
-  url: /blog/
+CopyPublishmain:
+
+title: "Home"
+url: /
+title: "Galleries"
+url: /portfolio/
+children:
+
+title: "Landscapes"
+url: /portfolio/landscapes/
+title: "Portraits"
+url: /portfolio/portraits/
+
+
+title: "Pricing"
+url: /pricing/
+title: "About"
+url: /about/
+title: "Blog"
+url: /blog/
+title: "Contact"
+url: /contact/
