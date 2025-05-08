@@ -5,7 +5,8 @@ url: "https://www.baykalmedia.com"
 baseurl: ""
 include:  
   - _pages
-  - _pages/*.md 
+  - _pages/*.md
+  - favicon
 
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "aqua"
