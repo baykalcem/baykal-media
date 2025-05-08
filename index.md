@@ -11,13 +11,6 @@ excerpt: "Documentary, emotive, cinematic storytelling"
 intro: 
   - excerpt: "Capturing life's authentic moments through a documentary lens with cinematic flair."
 feature_row:
-  - image_path: /assets/images/landscapes-thumb.png
-    alt: "Landscapes Gallery"
-    title: "Landscapes"
-    excerpt: "Breathtaking vistas and natural beauty captured through my lens."
-    url: "/portfolio/landscapes/"
-    btn_label: "View Gallery"
-    btn_class: "btn--primary"
   - image_path: /assets/images/portraits-thumb.jpg
     alt: "Portraits Gallery"
     title: "Portraits"
@@ -25,11 +18,18 @@ feature_row:
     url: "/portfolio/portraits/"
     btn_label: "View Gallery"
     btn_class: "btn--primary"
+  - image_path: /assets/images/landscapes-thumb.jpg
+    alt: "Landscapes Gallery"
+    title: "Landscapes"
+    excerpt: "Breathtaking vistas and natural beauty captured through my lens."
+    url: "/portfolio/landscapes/"
+    btn_label: "View Gallery"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
+{% include feature_row id="feature_row" type="left" %}
 
 ## Recent Work
 

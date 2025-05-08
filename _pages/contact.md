@@ -31,7 +31,7 @@ For portrait sessions, I recommend booking 2-4 weeks in advance. For events or s
 I provide a comprehensive styling guide to all portrait clients after booking. Generally, I recommend wearing clothing that makes you feel confident and comfortable, while avoiding large logos or distracting patterns.
 
 **Do you travel for photography sessions?**  
-Yes! I serve the [your local area] area and am available for travel worldwide. Travel fees may apply depending on the location.
+Depends! I am located in the Raleigh-Durham area. Travel is very dependent on location and timing. Travel fees may apply depending on the location.
 
 **How long until I receive my photos?**  
 Portrait sessions are typically delivered within 2 weeks. Larger events or commercial projects may take 3-4 weeks.
@@ -41,6 +41,6 @@ Rush delivery is available for an additional fee, depending on my current worklo
 
 ### Studio Location
 
-[If applicable, include your studio address or meeting location information]
+Raleigh, North Carolina
 
 I look forward to connecting with you and discussing how we can work together to create beautiful, meaningful images.
