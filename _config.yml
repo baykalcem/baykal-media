@@ -5,7 +5,7 @@ url: "https://www.baykalmedia.com"
 baseurl: ""
 
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "aqua"
 
 # Site Settings
 locale: "en-US"
@@ -14,18 +14,17 @@ breadcrumbs: true
 words_per_minute: 200
 
 # Social Sharing
-twitter:
-  username: ""
-facebook:
-  username: "yourhandle"
-  app_id:
-  publisher:
+# twitter:
+#   username: ""
+# facebook:
+#   username: "yourhandle"
+#   app_id:
+#   publisher:
 og_image: "/assets/images/logo.png"
 social:
   type: Person
   links:
-    - "https://instagram.com/yourhandle"
-    - "https://facebook.com/yourhandle"
+    - "https://instagram.com/baykalcem"
 
 # Analytics
 analytics:
@@ -38,18 +37,18 @@ analytics:
 author:
   name: "Baykal Media"
   avatar: "/assets/images/profile.jpg"
-  bio: "Documentary photographer specializing in landscapes and portraits"
-  location: "Your Location"
+  bio: "Photographer specializing in landscapes and portraits, part-time computer scence student."
+  location: "Raleigh, NC"
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/yourhandle"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://facebook.com/yourhandle"
+      url: "https://instagram.com/cembaykal_"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/baykalcem"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:hello@baykalmedia.com"
+      url: "mailto:baykalcm@gmail.com"
 
 # Site Footer
 footer:

@@ -17,10 +17,10 @@ I'd love to hear about your project or answer any questions you might have. Fill
 
 ### Direct Contact
 
-- **Email:** [hello@baykalmedia.com](mailto:hello@baykalmedia.com)
-- **Phone:** (555) 123-4567
-- **Instagram:** [@yourhandle](https://instagram.com/yourhandle)
-- **Facebook:** [Baykal Media](https://facebook.com/yourhandle)
+- **Email:** [baykalcm@gmail.com](mailto:hello@baykalmedia.com)
+- **Phone:** (919) 410-3977
+- **Instagram:** [@cembaykal_](https://instagram.com/cembaykal_)
+- **GitHub:** [Baykal Media](https://github.com/baykalcem)
 
 ### Frequently Asked Questions
 

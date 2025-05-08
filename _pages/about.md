@@ -10,7 +10,7 @@ header:
 
 ## About Me
 
-Welcome! I'm [Your Name], the photographer and storyteller behind Baykal Media. My journey in photography began [brief background about how you started]. I specialize in documentary-style photography with a cinematic approach, capturing authentic moments that tell compelling stories.
+Welcome! I'm Cem Baykal, the photographer and storyteller behind Baykal Media. My journey in photography began [brief background about how you started]. I specialize in documentary-style photography with a cinematic approach, capturing authentic moments that tell compelling stories.
 
 ## My Approach
 
@@ -26,7 +26,7 @@ I believe that every image should evoke emotion and tell a story. My documentary
 
 ## Equipment
 
-I primarily shoot with [your camera equipment], chosen for its exceptional image quality and versatility in various shooting conditions. While technical tools are important, I firmly believe that the photographer's eye and vision are what truly create meaningful images.
+I primarily shoot with Sony equipment, chosen for its exceptional image quality and versatility in various shooting conditions. While technical tools are important, I firmly believe that the photographer's eye and vision are what truly create meaningful images.
 
 ## Philosophy
 

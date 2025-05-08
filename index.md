@@ -25,13 +25,6 @@ feature_row:
     url: "/portfolio/portraits/"
     btn_label: "View Gallery"
     btn_class: "btn--primary"
-  - image_path: /assets/images/mentorship-thumb.jpg
-    alt: "Mentorship"
-    title: "Mentorship"
-    excerpt: "Learn photography techniques and develop your unique style."
-    url: "/mentorship/"
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
