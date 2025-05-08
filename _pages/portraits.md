@@ -9,36 +9,30 @@ header:
 excerpt: "Authentic moments and genuine emotions captured through a documentary lens"
 gallery:
   - url: /assets/images/portraits/portrait-1-full.jpg
-    image_path: /assets/images/portraits/portrait-1-thumb.jpg
+    image_path: assets/images/portraits/Baykal_Grad_Shoots-21-min.jpg
     alt: "Environmental portrait of artist in studio"
-    title: "The Creator"
-  - url: /assets/images/portraits/portrait-2-full.jpg
-    image_path: /assets/images/portraits/portrait-2-thumb.jpg
-    alt: "Family portrait outdoors"
-    title: "Family Bonds"
   - url: /assets/images/portraits/portrait-3-full.jpg
-    image_path: /assets/images/portraits/portrait-3-thumb.jpg
+    image_path: assets/images/portraits/Baykal_Grad_Shoots-155-min.jpg
     alt: "Black and white portrait of elderly person"
-    title: "Wisdom Lines"
-  - url: /assets/images/portraits/portrait-4-full.jpg
-    image_path: /assets/images/portraits/portrait-4-thumb.jpg
-    alt: "Candid portrait of child playing"
-    title: "Pure Joy"
   - url: /assets/images/portraits/portrait-5-full.jpg
-    image_path: /assets/images/portraits/portrait-5-thumb.jpg
+    image_path: /assets/images/portraits/Baykal_Grad_Shoots-404-min.jpg
+  - url: /assets/images/portraits/portrait-4-full.jpg
+    image_path: assets/images/portraits/Baykal_Grad_Shoots-48-min.jpg
+    alt: "Candid portrait of child playing"
     alt: "Couple portrait at sunset"
-    title: "Golden Connection"
+  - url: /assets/images/portraits/portrait-2-full.jpg
+    image_path: assets/images/portraits/Baykal_Grad_Shoots-382-min.jpg
+    alt: "Family portrait outdoors"
   - url: /assets/images/portraits/portrait-6-full.jpg
-    image_path: /assets/images/portraits/portrait-6-thumb.jpg
+    image_path: assets/images/portraits/Baykal_Grad_Shoots-463-min.jpg
     alt: "Portrait of musician with instrument"
-    title: "The Musician"
 ---
 
 ## Portrait Photography
 
 My portrait photography explores the authentic character and genuine emotions of my subjects. Using a documentary approach with cinematic elements, I create portraits that reveal personality, tell stories, and capture meaningful moments.
 
-{% include gallery layout="half" caption="A selection of portrait work ranging from individuals to families, showcasing natural expressions and environmental contexts." %}
+{% include gallery caption="A selection of portrait work ranging from individuals to families, showcasing natural expressions and environmental contexts." %}
 
 ### My Approach to Portraits
 
@@ -60,3 +54,17 @@ I offer several types of portrait sessions:
 - **Documentary Day-in-the-Life** - Following subjects through their natural routines to capture authentic moments
 
 For information about booking a portrait session, please visit my [pricing page](/pricing/) or [contact me](/contact/) directly.
+
+<style>
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+    gap: 20px;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Maintain the 2x3 aspect ratio */
+  }
+</style>
