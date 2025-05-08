@@ -3,6 +3,9 @@ description: "Documentary, cinematic photography capturing authentic moments"
 logo: "/assets/images/logo.png"
 url: "https://www.baykalmedia.com"
 baseurl: ""
+include:  
+  - _pages
+  - _pages/*.md 
 
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "aqua"
