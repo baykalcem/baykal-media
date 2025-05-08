@@ -11,7 +11,7 @@ excerpt: "Documentary, emotive, cinematic storytelling"
 intro: 
   - excerpt: "Capturing life's authentic moments through a documentary lens with cinematic flair."
 feature_row:
-  - image_path: /assets/images/landscapes-thumb.jpg
+  - image_path: /assets/images/landscapes-thumb.png
     alt: "Landscapes Gallery"
     title: "Landscapes"
     excerpt: "Breathtaking vistas and natural beauty captured through my lens."

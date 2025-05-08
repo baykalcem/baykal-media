@@ -19,10 +19,6 @@ words_per_minute: 200
 # Social Sharing
 # twitter:
 #   username: ""
-# facebook:
-#   username: "yourhandle"
-#   app_id:
-#   publisher:
 og_image: "/assets/images/logo.png"
 social:
   type: Person
@@ -58,10 +54,13 @@ footer:
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/yourhandle"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://facebook.com/yourhandle"
+      url: "https://instagram.com/cembaykal_"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: " https://github.com/baykalcem"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto: baykalcm@gmail.com"
 
 # Collections
 collections:
@@ -115,3 +114,5 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+atom_feed:
+  hide: true
