@@ -13,21 +13,22 @@ excerpt: "Transparent pricing for photography services"
 
 I believe in transparent pricing and creating packages that deliver exceptional value. Each photography package is thoughtfully designed to meet different needs and preferences.
 
-### Portrait Sessions
+### Graduation Sessions
 
-| Package | Duration | Images | Details | Investment |
-|---------|----------|--------|---------|------------|
-| **Essence** | 1 hour | 20 digital images | One location, personal use license | $350 |
-| **Narrative** | 2 hours | 40 digital images | Up to two locations, personal use license | $550 |
-| **Documentary** | 4 hours | 80+ digital images | Multiple locations/settings, day-in-the-life approach | $950 |
+| Package              | Duration | Images             | Details                                                                 | Investment |
+|----------------------|----------|--------------------|-------------------------------------------------------------------------|------------|
+| **Grad Essence**     | 1 hour   | 20+ digital images  | Two campus locations, cap & gown portraits, personal use license         | $150       |
+| **Grad Story**       | 2 hours  | 40+ digital images  | 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $250       |
+| **Grad Group** | 3 hours  | 80+ digital images | Groups of up to 5, 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $500       |
+
+
 
 *All portrait packages include:*
 - Pre-session consultation
 - Professional editing
-- Online gallery for easy sharing and downloading
-- Print release for personal use
+- Online file transfer for easy sharing and downloading
 
-### Landscape Prints
+<!-- ### Landscape Prints
 
 | Size | Fine Art Paper | Metal Print | Framed Print |
 |------|---------------|------------|-------------|
@@ -41,7 +42,7 @@ I believe in transparent pricing and creating packages that deliver exceptional 
 - Museum-quality materials
 - Signed by the photographer
 - Certificate of authenticity
-- Free shipping within the continental US
+- Free shipping within the continental US -->
 
 ### Custom Projects
 
