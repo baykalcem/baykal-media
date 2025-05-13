@@ -17,10 +17,11 @@ I believe in transparent pricing and creating packages that deliver exceptional 
 
 | Package              | Duration | Images             | Details                                                                 | Investment |
 |----------------------|----------|--------------------|-------------------------------------------------------------------------|------------|
-| **Grad Essence**     | 1 hour   | 20+ digital images  | Two campus locations, cap & gown portraits, personal use license         | $150       |
-| **Grad Story**       | 2 hours  | 40+ digital images  | 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $250       |
-| **Grad Group** | 3 hours  | 80+ digital images | Groups of up to 5, 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $500       |
-
+| **Grad Essence**     | 1 hour   | 40+ digital images  | Two campus locations, cap & gown portraits, personal use license         | $100       |
+| **Grad Story**       | 2 hours  | 50+ digital images  | 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $150       |
+| **Grad Group** | 2 hours  | 80+ digital images | Groups of 2, 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $200       |
+| **Grad Group** | 3 hours  | 80+ digital images | Groups of 3-4, 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $250       |
+| **Grad Group** | 3 hours  | 80+ digital images | Groups of up to 5, 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $250       |
 
 
 *All portrait packages include:*

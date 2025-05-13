@@ -8,19 +8,19 @@ header:
   caption: "Photo credit: Baykal Media"
 excerpt: "Authentic moments and genuine emotions captured through a documentary lens"
 gallery:
-  - url: /assets/images/portraits/portrait-3-full.jpg
+  - url: /assets/images/portraits/Baykal_Grad_Shoots-155-min.jpg
     image_path: assets/images/portraits/Baykal_Grad_Shoots-155-min.jpg
-  - url: /assets/images/portraits/portrait-1-full.jpg
+  - url: /assets/images/portraits/Baykal_Grad_Shoots-21-min.jpg
     image_path: assets/images/portraits/Baykal_Grad_Shoots-21-min.jpg
     alt: "Environmental portrait of artist in studio"
-  - url: /assets/images/portraits/portrait-5-full.jpg
-    image_path: /assets/images/portraits/Baykal_Grad_Shoots-404-min.jpg
-  - url: /assets/images/portraits/portrait-4-full.jpg
+  - url: /assets/images/portraits/Baykal_Grad_Shoots-404-min.jpg
+    image_path: assets/images/portraits/Baykal_Grad_Shoots-404-min.jpg
+  - url: /assets/images/portraits/Baykal_Grad_Shoots-48-min.jpg
     image_path: assets/images/portraits/Baykal_Grad_Shoots-48-min.jpg
     alt: "Candid portrait of child playing"
-  - url: /assets/images/portraits/portrait-2-full.jpg
+  - url: /assets/images/portraits/Baykal_Grad_Shoots-382-min.jpg
     image_path: assets/images/portraits/Baykal_Grad_Shoots-382-min.jpg
-  - url: /assets/images/portraits/portrait-6-full.jpg
+  - url: /assets/images/portraits/Baykal_Grad_Shoots-463-min.jpg
     image_path: assets/images/portraits/Baykal_Grad_Shoots-463-min.jpg
 ---
 
