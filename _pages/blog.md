@@ -11,4 +11,4 @@ header:
 excerpt: "Photography adventures, tips, and insights"
 ---
 
-Welcome to the Baykal Media blog, where I share photography adventures, behind-the-scenes insights, technical tips, and stories from my professional journey. Check back regularly for new content or [subscribe](/subscribe/) to get updates directly to your inbox.
+Welcome to the Baykal Media blog, where I share photography adventures, behind-the-scenes insights, technical tips, and stories from my professional journey. Check back regularly for new content!

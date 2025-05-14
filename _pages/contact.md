@@ -20,7 +20,6 @@ I'd love to hear about your project or answer any questions you might have. Fill
 - **Email:** [baykalcm@gmail.com](mailto:hello@baykalmedia.com)
 - **Phone:** (919) 410-3977
 - **Instagram:** [@cembaykal_](https://instagram.com/cembaykal_)
-- **GitHub:** [Baykal Media](https://github.com/baykalcem)
 
 ### Frequently Asked Questions
 
@@ -28,7 +27,7 @@ I'd love to hear about your project or answer any questions you might have. Fill
 For portrait sessions, I recommend booking 2-4 weeks in advance. For events or special occasions, 2-3 months is ideal to ensure availability.
 
 **What should I wear for my portrait session?**  
-I provide a comprehensive styling guide to all portrait clients after booking. Generally, I recommend wearing clothing that makes you feel confident and comfortable, while avoiding large logos or distracting patterns.
+Generally, I recommend wearing clothing that makes you feel confident and comfortable, while avoiding large logos or distracting patterns.
 
 **Do you travel for photography sessions?**  
 Depends! I am located in the Raleigh-Durham area. Travel is very dependent on location and timing. Travel fees may apply depending on the location.

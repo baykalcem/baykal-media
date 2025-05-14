@@ -21,6 +21,12 @@ gallery_ezine:
   - url: /assets/images/landscapes/ezine/ezine-4.jpg
     image_path: /assets/images/landscapes/ezine/ezine-4.jpg
     title: "Villages of Sakar Peak"
+  - url: /assets/images/landscapes/ezine/ezine-5.jpg
+    image_path: /assets/images/landscapes/ezine/ezine-5.jpg
+    title: "Cigri Village Entrance"
+  - url: /assets/images/landscapes/ezine/ezine-6.jpg
+    image_path: /assets/images/landscapes/ezine/ezine-6.jpg
+    title: "Cigri"
 
 gallery_eastern:
   - url: /assets/images/landscapes/eastern-turkey/eastern-1.jpg
@@ -41,6 +47,18 @@ gallery_eastern:
   - url: /assets/images/landscapes/eastern-turkey/eastern-6.jpg
     image_path: /assets/images/landscapes/eastern-turkey/eastern-6.jpg
     title: "Ancient Church in Ani"
+  - url: /assets/images/landscapes/eastern-turkey/eastern-7.jpg
+    image_path: /assets/images/landscapes/eastern-turkey/eastern-7.jpg
+    title: "Lake Van"
+  - url: /assets/images/landscapes/eastern-turkey/eastern-8.jpg
+    image_path: /assets/images/landscapes/eastern-turkey/eastern-8.jpg
+    title: "Lake Cildir"
+  - url: /assets/images/landscapes/eastern-turkey/eastern-9.jpg
+    image_path: /assets/images/landscapes/eastern-turkey/eastern-9.jpg
+    title: "Mount Artos"
+  - url: /assets/images/landscapes/eastern-turkey/eastern-10.jpg
+    image_path: /assets/images/landscapes/eastern-turkey/eastern-10.jpg
+    title: "Hosap Village"
 ---
 
 ## Landscape Photography
@@ -127,14 +145,14 @@ Dramatic scenery and historic textures from Eastern Turkey.
   }
 
   .accordion-header:after {
-    content: '\002B';
+    content: '\002B'; /* Plus sign */
     font-weight: bold;
     float: right;
     margin-left: 5px;
   }
 
   .accordion-header.active:after {
-    content: "\2212";
+    content: "\2212"; /* Minus sign */
   }
 
   .accordion-content {
@@ -145,37 +163,30 @@ Dramatic scenery and historic textures from Eastern Turkey.
   }
 
   .accordion-content.active {
-    max-height: 3000px !important;
+    /* Ensure this is large enough for varied height content.
+       If you have very tall images, you might need to increase it or use JS to set it dynamically. */
+    max-height: 5000px !important; /* Increased for potentially taller content */
   }
 
-  /* Masonry layout */
+  /* ✅ Grid-Based Gallery Layout */
   .accordion-content .gallery {
-    column-count: 2;
-    column-gap: 1rem;
-  }
-
-  @media (min-width: 768px) {
-    .accordion-content .gallery {
-      column-count: 3;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .accordion-content .gallery {
-      column-count: 4;
-    }
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    align-items: start; /* ADDED: Prevents items in a row from stretching to tallest item's height */
   }
 
   .accordion-content .gallery a {
-    display: inline-block;
-    width: 100%;
-    margin: 0 0 1rem;
-    break-inside: avoid;
+    display: block;
+    overflow: hidden;
   }
 
   .accordion-content .gallery img {
     width: 100%;
-    height: auto;
+    height: auto; /* CHANGED: Was 200px. Allows image to set its own height based on aspect ratio */
+    display: block; /* ADDED: Good practice for images, removes potential bottom space */
+    object-fit: cover; /* With height:auto, this has less effect but is harmless.
+                          It ensures the image covers the area if 'a' tag had constraints. */
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;

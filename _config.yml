@@ -37,7 +37,7 @@ analytics:
 author:
   name: "Baykal Media"
   avatar: "/assets/images/profile.jpg"
-  bio: "Photographer specializing in landscapes and portraits, part-time computer scence student."
+  bio: "Photographer specializing in portraits and landscapes. Computer science master's student at UNC."
   location: "Raleigh, NC"
   links:
     - label: "Instagram"
@@ -70,7 +70,7 @@ collections:
     permalink: /:collection/:path/
   posts:
     output: true
-    permalink: /:categories/:title/
+    permalink: /blog/:title/
 
 # Defaults
 defaults:
@@ -82,8 +82,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
-      share: true
+      comments: true
+      share: false
       related: true
   # _pages
   - scope:

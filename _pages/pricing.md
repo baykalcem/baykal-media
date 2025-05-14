@@ -17,33 +17,16 @@ I believe in transparent pricing and creating packages that deliver exceptional 
 
 | Package              | Duration | Images             | Details                                                                 | Investment |
 |----------------------|----------|--------------------|-------------------------------------------------------------------------|------------|
-| **Grad Essence**     | 1 hour   | 40+ digital images  | Two campus locations, cap & gown portraits, personal use license         | $100       |
-| **Grad Story**       | 2 hours  | 50+ digital images  | 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $150       |
+| **Grad Essence**     | 1 hour   | 40+ digital images  | Two campus locations, cap & gown portraits, outfit changes allowed, personal use license         | $100       |
+| **Grad Story**       | 2 hours  | 70+ digital images  | 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $150       |
 | **Grad Group** | 2 hours  | 80+ digital images | Groups of 2, 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $200       |
 | **Grad Group** | 3 hours  | 80+ digital images | Groups of 3-4, 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $250       |
-| **Grad Group** | 3 hours  | 80+ digital images | Groups of up to 5, 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $250       |
 
 
 *All portrait packages include:*
 - Pre-session consultation
 - Professional editing
 - Online file transfer for easy sharing and downloading
-
-<!-- ### Landscape Prints
-
-| Size | Fine Art Paper | Metal Print | Framed Print |
-|------|---------------|------------|-------------|
-| 8x10 | $95 | $150 | $225 |
-| 12x18 | $175 | $275 | $375 |
-| 16x24 | $250 | $375 | $475 |
-| 24x36 | $375 | $525 | $650 |
-| 30x45 | $550 | $750 | $950 |
-
-*All prints include:*
-- Museum-quality materials
-- Signed by the photographer
-- Certificate of authenticity
-- Free shipping within the continental US -->
 
 ### Custom Projects
 

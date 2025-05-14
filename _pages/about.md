@@ -10,7 +10,7 @@ header:
 
 ## About Me
 
-Welcome! I'm Cem Baykal, the photographer and storyteller behind Baykal Media. My journey in photography began [brief background about how you started]. I specialize in documentary-style photography with a cinematic approach, capturing authentic moments that tell compelling stories.
+Welcome! I'm Cem Baykal, the photographer and storyteller behind Baykal Media. My journey in photography began as a young child and was greatly expedited by my purchase of a film camera my freshman year of college. Starting with a film camera helped me to appreciate each shot I took and helped establish my fundamentatls. I specialize in documentary-style photography with a cinematic approach, capturing authentic moments that tell compelling stories.
 
 ## My Approach
 
@@ -24,13 +24,9 @@ I believe that every image should evoke emotion and tell a story. My documentary
 - Natural light techniques
 - Post-processing for cinematic looks
 
-## Equipment
-
-I primarily shoot with Sony equipment, chosen for its exceptional image quality and versatility in various shooting conditions. While technical tools are important, I firmly believe that the photographer's eye and vision are what truly create meaningful images.
-
 ## Philosophy
 
-Every photograph is an opportunity to preserve a moment, tell a story, and create a connection. I approach each session with curiosity, empathy, and a commitment to authentic representation. My goal is not just to take pictures, but to create visual narratives that stand the test of time.
+Every photograph is an opportunity to preserve a moment, tell a story, and create a connection. I approach each session with curiosity, empathy, and a commitment to authentic representation. My goal is not just to take pictures, but to create visual narratives that help you remember your fondest moments as they unfolded.
 
 ## Let's Connect
 
