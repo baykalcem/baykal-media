@@ -8,21 +8,21 @@ header:
   caption: "Photo credit: Baykal Media"
 excerpt: "Authentic moments and genuine emotions captured through a documentary lens"
 gallery_lauren:
-  - url: /assets/images/portraits/Baykal_Grad_Shoots-48-min.jpg
-    image_path: assets/images/portraits/Baykal_Grad_Shoots-48-min.jpg
+  - url: /assets/images/portraits/lauren/Baykal_Grad_Shoots-48-min.jpg
+    image_path: assets/images/portraits/lauren/Baykal_Grad_Shoots-48-min.jpg
     alt: "Candid portrait of child playing"
-  - url: /assets/images/portraits/Baykal_Grad_Shoots-382-min.jpg
-    image_path: assets/images/portraits/Baykal_Grad_Shoots-382-min.jpg
-  - url: /assets/images/portraits/Baykal_Grad_Shoots-463-min.jpg
-    image_path: assets/images/portraits/Baykal_Grad_Shoots-463-min.jpg
+  - url: /assets/images/portraits/lauren/Baykal_Grad_Shoots-382-min.jpg
+    image_path: assets/images/portraits/lauren/Baykal_Grad_Shoots-382-min.jpg
+  - url: /assets/images/portraits/lauren/Baykal_Grad_Shoots-463-min.jpg
+    image_path: assets/images/portraits/lauren/Baykal_Grad_Shoots-463-min.jpg
 gallery_hugh:
-  - url: /assets/images/portraits/Baykal_Grad_Shoots-155-min.jpg
-    image_path: assets/images/portraits/Baykal_Grad_Shoots-155-min.jpg
-  - url: /assets/images/portraits/Baykal_Grad_Shoots-21-min.jpg
-    image_path: assets/images/portraits/Baykal_Grad_Shoots-21-min.jpg
+  - url: /assets/images/portraits/hugh/Baykal_Grad_Shoots-155-min.jpg
+    image_path: assets/images/portraits/hugh/Baykal_Grad_Shoots-155-min.jpg
+  - url: /assets/images/portraits/hugh/Baykal_Grad_Shoots-21-min.jpg
+    image_path: assets/images/portraits/hugh/Baykal_Grad_Shoots-21-min.jpg
     alt: "Environmental portrait of artist in studio"
-  - url: /assets/images/portraits/Baykal_Grad_Shoots-404-min.jpg
-    image_path: assets/images/portraits/Baykal_Grad_Shoots-404-min.jpg
+  - url: /assets/images/portraits/hugh/Baykal_Grad_Shoots-404-min.jpg
+    image_path: assets/images/portraits/hugh/Baykal_Grad_Shoots-404-min.jpg
 ---
 
 ## Portrait Photography
