@@ -59,6 +59,24 @@ gallery_eastern:
   - url: /assets/images/landscapes/eastern-turkey/eastern-3.jpg
     image_path: /assets/images/landscapes/eastern-turkey/eastern-3.jpg
     title: "Lake Cildir"
+  - url: /assets/images/landscapes/eastern-turkey/eastern-11.jpg
+    image_path: /assets/images/landscapes/eastern-turkey/eastern-11.jpg
+    title: "Erzurum"
+  - url: /assets/images/landscapes/eastern-turkey/eastern-11.jpg
+    image_path: /assets/images/landscapes/eastern-turkey/eastern-11.jpg
+    title: "Erzurum"
+  - url: /assets/images/landscapes/eastern-turkey/eastern-12.jpg
+    image_path: /assets/images/landscapes/eastern-turkey/eastern-12.jpg
+    title: "Hosap Castle"
+  - url: /assets/images/landscapes/eastern-turkey/eastern-13.jpg
+    image_path: /assets/images/landscapes/eastern-turkey/eastern-13.jpg
+    title: "Horses of Cildir"
+  - url: /assets/images/landscapes/eastern-turkey/eastern-14.jpg
+    image_path: /assets/images/landscapes/eastern-turkey/eastern-14.jpg
+    title: "Kars Bakkal"
+  - url: /assets/images/landscapes/eastern-turkey/eastern-15.jpg
+    image_path: /assets/images/landscapes/eastern-turkey/eastern-15.jpg
+    title: "Woman in Erzurum"
 ---
 
 ## Landscape Photography
