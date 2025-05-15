@@ -17,14 +17,14 @@ I believe in transparent pricing and creating packages that deliver exceptional 
 
 | Package              | Duration | Images             | Details                                                                 | Investment |
 |----------------------|----------|--------------------|-------------------------------------------------------------------------|------------|
-| **Grad Essence**     | 1 hour   | 40+ digital images  | Two campus locations, cap & gown portraits, outfit changes allowed, personal use license         | $100       |
-| **Grad Story**       | 2 hours  | 70+ digital images  | 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $150       |
-| **Grad Group** | 2 hours  | 80+ digital images | Groups of 2, 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $200       |
-| **Grad Group** | 3 hours  | 80+ digital images | Groups of 3-4, 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $250       |
+| **Grad Essence**     | 1-1.5 hours   | 40+ digital images  | One person, 2 campus locations, cap & gown portraits, outfit changes allowed, personal use license         | $100       |
+| **Grad Story**       | 2-2.5 hours  | 70+ digital images  | One person, 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $150       |
+| **Grad Group** | 2-2.5 hours  | 80+ digital images | Groups of 2, 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $200       |
+| **Grad Group** | 3-3.5 hours  | 80+ digital images | Groups of 3-4, 3-4 locations (e.g. campus landmarks + major building), outfit changes allowed, personal use license | $250       |
 
 
 *All portrait packages include:*
-- Pre-session consultation
+- Pre-session consultation - text
 - Professional editing
 - Online file transfer for easy sharing and downloading
 
@@ -43,12 +43,11 @@ Commercial usage of images requires specific licensing agreements. Rates are det
 ### Booking Process
 
 1. [Contact me](/contact/) to discuss your photography needs
-2. Schedule a consultation (in-person or virtual)
-3. Reserve your date with a 25% non-refundable retainer
-4. Complete a simple contract outlining our agreement
-5. Enjoy your photography experience!
+2. Schedule and reserve your date with a 25% non-refundable retainer
+3. Complete a simple contract outlining our agreement
+4. Enjoy your photography experience!
 
-The remaining balance is due one week before your scheduled session. I accept credit cards, Venmo, PayPal, and bank transfers.
+The remaining balance is due one week before your scheduled session. I accept Venmo and Zelle.
 
 ### Questions?
 
