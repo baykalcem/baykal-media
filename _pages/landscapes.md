@@ -121,14 +121,14 @@ Dramatic scenery and historic textures from Eastern Turkey.
 {% endcapture %}
 
 <div markdown="0" class="notice--primary accordion">
-  <h3 class="accordion-header">Ezine</h3>
+  <h3 class="accordion-header">Ezine - January 2025</h3>
   <div class="accordion-content" markdown="1">
     {{ ezine_content | markdownify }}
   </div>
 </div>
 
 <div markdown="0" class="notice--primary accordion">
-  <h3 class="accordion-header">Eastern Turkey</h3>
+  <h3 class="accordion-header">Eastern Turkey - December 2024</h3>
   <div class="accordion-content" markdown="1">
     {{ eastern_content | markdownify }}
   </div>
