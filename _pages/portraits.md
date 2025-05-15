@@ -29,13 +29,11 @@ gallery_hugh:
 
 My portrait photography explores the authentic character and genuine emotions of my subjects. Using a documentary approach with cinematic elements, I create portraits that reveal personality, tell stories, and capture meaningful moments.
 
-{% include gallery caption="A selection of portrait work." %}
-
 ## Collections
 
 Explore the galleries below.
 
-### Graduation
+#### Graduation
 {% capture lauren_content %}
 Lauren's a 2025 Graduate from UNC-Chapel Hill.
 

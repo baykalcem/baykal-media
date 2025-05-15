@@ -62,9 +62,6 @@ gallery_eastern:
   - url: /assets/images/landscapes/eastern-turkey/eastern-11.jpg
     image_path: /assets/images/landscapes/eastern-turkey/eastern-11.jpg
     title: "Erzurum"
-  - url: /assets/images/landscapes/eastern-turkey/eastern-11.jpg
-    image_path: /assets/images/landscapes/eastern-turkey/eastern-11.jpg
-    title: "Erzurum"
   - url: /assets/images/landscapes/eastern-turkey/eastern-12.jpg
     image_path: /assets/images/landscapes/eastern-turkey/eastern-12.jpg
     title: "Hosap Castle"
@@ -77,6 +74,10 @@ gallery_eastern:
   - url: /assets/images/landscapes/eastern-turkey/eastern-15.jpg
     image_path: /assets/images/landscapes/eastern-turkey/eastern-15.jpg
     title: "Woman in Erzurum"
+  - url: /assets/images/landscapes/eastern-turkey/eastern-16.jpg
+    image_path: /assets/images/landscapes/eastern-turkey/eastern-16.jpg
+    title: "Caves of Ani"
+  
 ---
 
 ## Landscape Photography
