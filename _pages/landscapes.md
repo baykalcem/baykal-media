@@ -90,7 +90,9 @@ My landscape photography focuses on capturing the raw beauty and emotional impac
 
 Explore the galleries below.
 
-{% capture ezine_content %}
+---
+
+### Ezine - January 2025
 Landscapes from Ezine, capturing the Aegean light and rural scenery.
 
 <div class="masonry-gallery gallery_ezine">
@@ -103,9 +105,10 @@ Landscapes from Ezine, capturing the Aegean light and rural scenery.
     </div>
   {% endfor %}
 </div>
-{% endcapture %}
 
-{% capture eastern_content %}
+---
+
+### Eastern Turkey - December 2024
 Dramatic scenery and historic textures from Eastern Turkey.
 
 <div class="masonry-gallery gallery_eastern">
@@ -118,21 +121,6 @@ Dramatic scenery and historic textures from Eastern Turkey.
     </div>
   {% endfor %}
 </div>
-{% endcapture %}
-
-<div markdown="0" class="notice--primary accordion">
-  <h3 class="accordion-header">Ezine - January 2025</h3>
-  <div class="accordion-content" markdown="1">
-    {{ ezine_content | markdownify }}
-  </div>
-</div>
-
-<div markdown="0" class="notice--primary accordion">
-  <h3 class="accordion-header">Eastern Turkey - December 2024</h3>
-  <div class="accordion-content" markdown="1">
-    {{ eastern_content | markdownify }}
-  </div>
-</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
@@ -140,113 +128,48 @@ Dramatic scenery and historic textures from Eastern Turkey.
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // Initialize accordions
-    const accordions = document.querySelectorAll('.accordion-header');
+    const galleries = document.querySelectorAll('.masonry-gallery');
 
-    accordions.forEach(accordion => {
-      accordion.addEventListener('click', function() {
-        this.classList.toggle('active');
-        const content = this.nextElementSibling;
-
-        if (content.style.maxHeight) {
-          content.style.maxHeight = null;
-        } else {
-          content.style.maxHeight = content.scrollHeight + "px";
-        }
-
-        setTimeout(function() {
-          if (accordion.classList.contains('active')) {
-            content.classList.add('active');
-            
-            // Initialize Masonry after accordion is opened and images are loaded
-            const gallery = content.querySelector('.masonry-gallery');
-            if (gallery) {
-              // Force three columns
-              const containerWidth = gallery.offsetWidth;
-              const itemWidth = (containerWidth / 3) - 20; // 3 columns with spacing
-              
-              const items = gallery.querySelectorAll('.masonry-item');
-              items.forEach(item => {
-                item.style.width = itemWidth + 'px';
-              });
-              
-              imagesLoaded(gallery, function() {
-                new Masonry(gallery, {
-                  itemSelector: '.masonry-item',
-                  gutter: 10,
-                  fitWidth: true
-                });
-              });
-            }
-          } else {
-            content.classList.remove('active');
-          }
-        }, 100);
+    galleries.forEach(gallery => {
+      // Force three columns
+      const containerWidth = gallery.offsetWidth;
+      // Ensure there's a fallback if offsetWidth is 0 (e.g., if gallery is hidden initially by other means)
+      const itemWidth = containerWidth > 0 ? (containerWidth / 3) - 20 : (window.innerWidth / 3) - 20; // 3 columns with spacing
+      
+      const items = gallery.querySelectorAll('.masonry-item');
+      items.forEach(item => {
+        item.style.width = itemWidth + 'px';
+      });
+      
+      imagesLoaded(gallery, function() {
+        new Masonry(gallery, {
+          itemSelector: '.masonry-item',
+          gutter: 10,
+          fitWidth: true // fitWidth might conflict with fixed column width, adjust as needed
+                         // If you strictly want 3 columns, you might remove fitWidth and ensure container width is appropriate
+                         // or calculate columnWidth based on a parent container.
+        });
       });
     });
   });
 </script>
 
 <style>
-  .accordion {
-    margin-bottom: 1rem;
-    border-radius: 4px;
-    overflow: hidden;
-  }
-
-  .accordion-header {
-    cursor: pointer;
-    padding: 0.75rem 1rem;
-    margin: 0;
-    font-size: 1.2em;
-    font-weight: bold;
-    transition: 0.3s;
-  }
-
-  .accordion-header:hover {
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-
-  .accordion-header:after {
-    content: '\002B'; /* Plus sign */
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-  }
-
-  .accordion-header.active:after {
-    content: "\2212"; /* Minus sign */
-  }
-
-  .accordion-content {
-    padding: 0 1rem;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-  }
-
-  .accordion-content.active {
-    max-height: 8000px !important; /* Increased for taller masonry content */
-  }
-
   /* Masonry Gallery Layout */
   .masonry-gallery {
-    width: 100%;
-    margin: 0 auto;
+    width: 100%; /* Make sure it takes full width available */
+    margin: 20px auto; /* Add some margin around galleries */
+    /* If using fitWidth: true for Masonry, it will center itself if smaller than container.
+       If not using fitWidth and setting columnWidth, ensure the total width of items + gutters
+       fits within the gallery container or it might break layout.
+    */
   }
 
   .masonry-item {
     box-sizing: border-box;
     margin-bottom: 10px;
-    padding: 0 5px;
+    padding: 0 5px; /* Horizontal padding to create space between items, gutter handles vertical */
     /* Width will be set by JavaScript */
-  }
-
-  .masonry-item a {
-    display: block;
-    overflow: hidden;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
 
   .masonry-item a {
@@ -274,6 +197,14 @@ Dramatic scenery and historic textures from Eastern Turkey.
     text-align: center;
     color: #666;
     line-height: 1.2; /* Tighter line height */
+  }
+
+  /* Optional: Add some styling for the gallery titles if desired */
+  h3 {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #eee;
   }
 </style>
 

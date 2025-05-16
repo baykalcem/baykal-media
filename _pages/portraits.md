@@ -9,154 +9,93 @@ header:
 excerpt: "Authentic moments and genuine emotions captured through a documentary lens"
 gallery_lauren:
   - url: /assets/images/portraits/lauren/Baykal_Grad_Shoots-48-min.jpg
-    image_path: assets/images/portraits/lauren/Baykal_Grad_Shoots-48-min.jpg
-    alt: "Candid portrait of child playing"
+    image_path: /assets/images/portraits/lauren/Baykal_Grad_Shoots-48-min.jpg # Corrected path to start with /
+    alt: "Lauren, UNC Graduate, portrait"
+    title: "Lauren - Portrait 1"
   - url: /assets/images/portraits/lauren/Baykal_Grad_Shoots-382-min.jpg
-    image_path: assets/images/portraits/lauren/Baykal_Grad_Shoots-382-min.jpg
+    image_path: /assets/images/portraits/lauren/Baykal_Grad_Shoots-382-min.jpg
+    alt: "Lauren, UNC Graduate, outdoor portrait"
+    title: "Lauren - Portrait 2"
   - url: /assets/images/portraits/lauren/Baykal_Grad_Shoots-463-min.jpg
-    image_path: assets/images/portraits/lauren/Baykal_Grad_Shoots-463-min.jpg
+    image_path: /assets/images/portraits/lauren/Baykal_Grad_Shoots-463-min.jpg
+    alt: "Lauren, UNC Graduate, smiling portrait"
+    title: "Lauren - Portrait 3"
 gallery_hugh:
   - url: /assets/images/portraits/hugh/Baykal_Grad_Shoots-155-min.jpg
-    image_path: assets/images/portraits/hugh/Baykal_Grad_Shoots-155-min.jpg
+    image_path: /assets/images/portraits/hugh/Baykal_Grad_Shoots-155-min.jpg
+    alt: "Hugh, UNC Graduate, campus portrait"
+    title: "Hugh - Portrait 1"
   - url: /assets/images/portraits/hugh/Baykal_Grad_Shoots-21-min.jpg
-    image_path: assets/images/portraits/hugh/Baykal_Grad_Shoots-21-min.jpg
-    alt: "Environmental portrait of artist in studio"
+    image_path: /assets/images/portraits/hugh/Baykal_Grad_Shoots-21-min.jpg
+    alt: "Hugh, UNC Graduate, thoughtful portrait"
+    title: "Hugh - Portrait 2"
   - url: /assets/images/portraits/hugh/Baykal_Grad_Shoots-404-min.jpg
-    image_path: assets/images/portraits/hugh/Baykal_Grad_Shoots-404-min.jpg
+    image_path: /assets/images/portraits/hugh/Baykal_Grad_Shoots-404-min.jpg
+    alt: "Hugh, UNC Graduate, portrait by architecture"
+    title: "Hugh - Portrait 3"
 ---
 
 ## Portrait Photography
 
 My portrait photography explores the authentic character and genuine emotions of my subjects. Using a documentary approach with cinematic elements, I create portraits that reveal personality, tell stories, and capture meaningful moments.
 
+---
+
 ## Collections
 
 Explore the galleries below.
 
-#### Graduation
-{% capture lauren_content %}
+---
+
+### Lauren's Story (2025 UNC Graduate)
 Lauren's a 2025 Graduate from UNC-Chapel Hill.
 
 {% include gallery id="gallery_lauren" %}
-{% endcapture %}
 
-{% capture hugh_content %}
+---
+
+### Hugh's Story (2025 UNC Graduate)
 Hugh's a 2025 Graduate from UNC-Chapel Hill.
 
 {% include gallery id="gallery_hugh" %}
-{% endcapture %}
 
-<div markdown="0" class="notice--primary accordion">
-  <h3 class="accordion-header">Lauren's Story</h3>
-  <div class="accordion-content" markdown="1">
-    {{ lauren_content | markdownify }}
-  </div>
-</div>
-
-<div markdown="0" class="notice--primary accordion">
-  <h3 class="accordion-header">Hugh's Story</h3>
-  <div class="accordion-content" markdown="1">
-    {{ hugh_content | markdownify }}
-  </div>
-</div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const accordions = document.querySelectorAll('.accordion-header');
-
-    accordions.forEach(accordion => {
-      accordion.addEventListener('click', function () {
-        this.classList.toggle('active');
-        const content = this.nextElementSibling;
-
-        if (content.style.maxHeight) {
-          content.style.maxHeight = null;
-        } else {
-          content.style.maxHeight = content.scrollHeight + "px";
-        }
-
-        setTimeout(function () {
-          if (accordion.classList.contains('active')) {
-            content.classList.add('active');
-          } else {
-            content.classList.remove('active');
-          }
-        }, 100);
-      });
-    });
-  });
-</script>
+---
 
 <style>
-  .accordion {
-    margin-bottom: 1rem;
-    border-radius: 4px;
-    overflow: hidden;
-  }
-
-  .accordion-header {
-    cursor: pointer;
-    padding: 0.75rem 1rem;
-    margin: 0;
-    font-size: 1.2em;
-    font-weight: bold;
-    transition: 0.3s;
-  }
-
-  .accordion-header:hover {
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-
-  .accordion-header:after {
-    content: '\002B'; /* Plus sign */
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-  }
-
-  .accordion-header.active:after {
-    content: "\2212"; /* Minus sign */
-  }
-
-  .accordion-content {
-    padding: 0 1rem;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-  }
-
-  .accordion-content.active {
-    /* Ensure this is large enough for varied height content.
-       If you have very tall images, you might need to increase it or use JS to set it dynamically. */
-    max-height: 5000px !important; /* Increased for potentially taller content */
-  }
-
-  /* ✅ Grid-Based Gallery Layout */
-  .accordion-content .gallery {
+  /* Grid-Based Gallery Layout */
+  /* Assuming the {% include gallery %} renders a div with class "gallery" */
+  .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 1rem;
-    align-items: start; /* ADDED: Prevents items in a row from stretching to tallest item's height */
+    align-items: start; /* Prevents items in a row from stretching to tallest item's height */
+    margin-top: 1em;    /* Added for spacing */
+    margin-bottom: 2em; /* Added for spacing */
   }
 
-  .accordion-content .gallery a {
+  .gallery a {
     display: block;
     overflow: hidden;
   }
 
-  .accordion-content .gallery img {
+  .gallery img {
     width: 100%;
-    height: auto; /* CHANGED: Was 200px. Allows image to set its own height based on aspect ratio */
-    display: block; /* ADDED: Good practice for images, removes potential bottom space */
-    object-fit: cover; /* With height:auto, this has less effect but is harmless.
-                          It ensures the image covers the area if 'a' tag had constraints. */
+    height: auto; /* Allows image to set its own height based on aspect ratio */
+    display: block; /* Good practice for images, removes potential bottom space */
+    object-fit: cover; /* Ensures the image covers the area if 'a' tag had constraints */
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
   }
 
-  .accordion-content .gallery img:hover {
+  .gallery img:hover {
     transform: scale(1.03);
+  }
+
+  /* Optional: Add some styling for the gallery titles if desired */
+  h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
   }
 </style>
 
@@ -180,4 +119,3 @@ I offer several types of portrait sessions:
 - **Documentary Day-in-the-Life** - Following subjects through their natural routines to capture authentic moments
 
 For information about booking a portrait session, please visit my [pricing page](/pricing/) or [contact me](/contact/) directly.
-
