@@ -77,6 +77,32 @@ gallery_eastern:
   - url: /assets/images/landscapes/eastern-turkey/eastern-16.jpg
     image_path: /assets/images/landscapes/eastern-turkey/eastern-16.jpg
     title: "Caves of Ani"
+
+gallery_nyc:
+  - url: /assets/images/landscapes/nyc/nyc-1.jpg
+    image_path: /assets/images/landscapes/nyc/nyc-1.jpg
+    title: "Lower Manhattan"
+  - url: /assets/images/landscapes/nyc/nyc-2.jpg
+    image_path: /assets/images/landscapes/nyc/nyc-2.jpg
+    title: "Statue of Liberty"
+  - url: /assets/images/landscapes/nyc/nyc-3.jpg
+    image_path: /assets/images/landscapes/nyc/nyc-3.jpg
+    title: "The Flag"
+  - url: /assets/images/landscapes/nyc/nyc-4.jpg
+    image_path: /assets/images/landscapes/nyc/nyc-4.jpg
+    title: "Sunset over Manhattan"
+  - url: /assets/images/landscapes/nyc/nyc-5.jpg
+    image_path: /assets/images/landscapes/nyc/nyc-5.jpg
+    title: "Lights On"
+  - url: /assets/images/landscapes/nyc/nyc-6.jpg
+    image_path: /assets/images/landscapes/nyc/nyc-6.jpg
+    title: "Avenues"
+  - url: /assets/images/landscapes/nyc/nyc-7.jpg
+    image_path: /assets/images/landscapes/nyc/nyc-7.jpg
+    title: "Walkway 1"
+  - url: /assets/images/landscapes/nyc/nyc-8.jpg
+    image_path: /assets/images/landscapes/nyc/nyc-8.jpg
+    title: "Walkway 2"
   
 ---
 
@@ -113,6 +139,20 @@ Dramatic scenery and historic textures from Eastern Turkey.
 
 <div class="masonry-gallery gallery_eastern">
   {% for img in page.gallery_eastern %}
+    <div class="masonry-item">
+      <a href="{{ img.url | relative_url }}" class="image-popup">
+        <img src="{{ img.image_path | relative_url }}" alt="{{ img.title }}" title="{{ img.title }}">
+      </a>
+      <span class="caption">{{ img.title }}</span>
+    </div>
+  {% endfor %}
+</div>
+
+### NYC - August 2024
+Dramatic scenery and historic textures from Eastern Turkey.
+
+<div class="masonry-gallery gallery_nyc">
+  {% for img in page.gallery_nyc %}
     <div class="masonry-item">
       <a href="{{ img.url | relative_url }}" class="image-popup">
         <img src="{{ img.image_path | relative_url }}" alt="{{ img.title }}" title="{{ img.title }}">
